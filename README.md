@@ -8,6 +8,8 @@ Chapter 3
 INSTALLED_APPS_Rango/settings.py, add_HttpResponse_views/rango, urls.py_rangoinclude(), rango/urls_setup  
 This version already set up basic things covered in Chapter 3, there's a hit says that i should make a push. I do think so because I do have lost all i work because not pushed after a period of work.  
 02/02/2025  
-Pass Chapter 3 test. OK. 
-03/02/2025 
-Pass Chapter 4 test. OK.
+Pass Chapter 3 test. OK.  
+03/02/2025  
+Pass Chapter 4 test. OK.  
+10/02/2025  
+Pass Chapter 5 test. OK.  
