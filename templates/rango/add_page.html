@@ -1,0 +1,12 @@
+{% if category %}
+    <h1>Add a Page to {{ category.name }}</h1>
+    
+    <form method="post" action="{% url 'rango:add_page' category.slug %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Add Page" />
+    </form>
+
+{% else %}
+    <p>The specified category does not exist.</p>
+{% endif %}
