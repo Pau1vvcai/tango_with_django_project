@@ -13,3 +13,7 @@ Pass Chapter 3 test. OK.
 Pass Chapter 4 test. OK.  
 10/02/2025  
 Pass Chapter 5 test. OK.  
+11/02/2025  
+Checks for the top five pages in the index() view's response failed. Check you are using the correct list of objects, the correct HTML markup, and try again. '<li>(\s*|\n*)<a(\s+)href(\s*)=(\s*)("http://www.greenteapress.com/thinkpython/"|\'http://www.greenteapress.com/thinkpython/\')(\s*)>(\s*|\n*)How to Think like a Computer Scientist(\s*|\n*)</a>(\s*|\n*)</li>'  
+Can't pass the test for a long long time, decided to move on.  
+13/02/2025
