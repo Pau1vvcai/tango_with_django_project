@@ -21,8 +21,22 @@ Unknown Category
 {% else %}
 <strong>No pages currently in category.</strong>
 {% endif %}
-
+{% for c in categories %}
+{% if c == current_category %}
+<li>
+<strong>
+<a href="{% url 'rango:show_category' c.slug %}">{{ c.name }}</a>
+</strong>
+</li>
+{% else %}
+<li>
+<a href="{% url 'rango:show_category' c.slug %}">{{ c.name }}</a>
+</li>
+{% endif %}
+{% endfor %}
+{% if user.is_authenticated %}
 <a href="{% url 'rango:add_page' category.slug %}">Add Page</a> <br />
+{% endif %}
 {% else %}
 The specified category does not exist.
 {% endif %}

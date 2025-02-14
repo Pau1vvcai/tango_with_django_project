@@ -18,3 +18,5 @@ Checks for the top five pages in the index() view's response failed. Check you a
 Can't pass the test for a long long time, decided to move on.  
 13/02/2025  
 Pass Chapter 7 test. OK.  
+  
+Pass Chapter 8 test. OK.  
