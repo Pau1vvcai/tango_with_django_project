@@ -23,3 +23,10 @@ Pass Chapter 8 test. OK.
   
 14/02/2025  
 Pass Chapter 9 test. OK.  
+  
+================
+TwD TEST FAILURE =(
+================
+In your about.html template, please check that you have the correct output for displaying the number of visits. Capital letters matter. Otherwise, check your about() view and the cookie handling logic.  
+
+Decided to move on.
